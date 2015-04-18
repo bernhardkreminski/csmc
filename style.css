@@ -13,6 +13,7 @@ body {
 
 #nav {
     width: 20%;
+    min-width: 130px;
     float: left;
     z-index: 1;
     height: 100%;
@@ -20,6 +21,7 @@ body {
     box-shadow: 8px 0px 10px #333333;
     top: 0;
     left: 0;
+    background-color: white;
 }
 
 #nav img {
@@ -52,7 +54,7 @@ body {
 }
 
 #nav ul li:not(:first-child):hover {
-    border-left: 80px solid #d2b115;
+    border-left: 30px solid #d2b115;
 }
 
 #nav ul li:first-child {
