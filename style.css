@@ -76,13 +76,11 @@ body {
 
 #content {
     z-index: -1;
-    background-color: #d2b115;
     width: 80%;
     height: 100%;
     position: absolute;
-    margin-left: 20%;
     top: 0;
-    left: 0;
+    left: 20%;
 }
 
 #content img {
