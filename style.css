@@ -88,3 +88,77 @@ body {
     height: 33.42%;
     margin-top: -0.4%;
 }
+/* ------------------------- kontakt ------------------------ */
+/* --------------------------- kontakt ---------------------------- */
+
+#kontakt img {
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#kontakt {
+    z-index: 1;
+    background-color: #d2b115;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 20%;
+    top: 0;
+    left: 0;
+}
+
+#kontakt form {
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 12%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#kontakt form input,
+#kontakt form textarea {
+    border: 2px solid #333333;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    height: 1.5em;
+    width: 82.5%;
+    padding: 2.5%;
+    line-height: 30px;
+    font-size: 0.8em;
+    transition: border .4s ease-in-out;
+}
+
+#kontakt form textarea {
+    height: 25vh;
+    resize: none;
+    font-size: 1em;
+}
+
+#kontakt form h1 {
+    color: #d2b115;
+    margin-left: 6%;
+    font-size: 1.1em;
+    margin-right: 6%;
+}
+
+#kontakt form h1:first-child {
+    color: #333333;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+}
+
+#kontakt form button {
+    border: 1px solid #333333;
+    color: #333333;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    height: 3em;
+    width: 50%;
+    color: white;
+    background-color: #333333;
+}
