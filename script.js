@@ -1,5 +1,6 @@
 $("#kontakt").hide();
 $("#portfolio").hide();
+$("#ueberuns").hide();
 
 $("#nav li:first-child").click(function () {
     $("#kontakt").hide();
