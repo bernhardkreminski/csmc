@@ -71,9 +71,10 @@ body {
 #nav p {
     color: #666666;
     position: absolute;
+    width: 120px;
     bottom: 0;
-    left: 30%;
-    right: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #nav p:hover {
@@ -81,7 +82,7 @@ body {
 }
 /* ---------------------- content ----------------------- */
 
-#content {
+#home {
     position: absolute;
     z-index: -1;
     width: 80%;
@@ -90,32 +91,34 @@ body {
     left: 20%;
 }
 
-#content img {
+#home img {
     width: 100%;
     height: 33.42%;
     margin-top: -0.4%;
 }
 /* --------------------------- kontakt ---------------------------- */
 
-#kontakt img,
-#portfolio_hg,
-#ueberuns_hg {
+#hg {
     height: inherit;
     width: 100%;
     position: absolute;
     z-index: -1;
 }
-
-#kontakt,
-#ueberuns {
-    z-index: 1;
-    background-color: #d2b115;
+#content{
+    z-index: -1;
     width: 80%;
     height: 100%;
     position: absolute;
-    margin-left: 20%;
+    left: 20%;
     top: 0;
-    left: 0;
+}
+
+#kontakt,
+#ueberuns, 
+#portfolio{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 #kontakt form {
@@ -174,14 +177,6 @@ body {
 }
 /* --------------------------- portfolio ---------------------------- */
 
-#portfolio {
-    z-index: 1;
-    position: absolute;
-    left: 20%;
-    width: 80%;
-    height: 100%;
-    display: flex;
-}
 
 #portfolio #links {
     width: 60%;
