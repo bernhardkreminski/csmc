@@ -1,4 +1,5 @@
     function scrollToElement (element) {
+        // get Position of Element
         var xPosition = element.position().top;   
         scrollElement ($('#content'), xPosition, 2);
     }
