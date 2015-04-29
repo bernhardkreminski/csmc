@@ -87,24 +87,9 @@ body {
 }
 /* ---------------------- content ----------------------- */
 
-#home {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    top: 0;
-}
-
-#home img {
-    width: 100%;
-    height: 33.62%;
-    margin-top: -0.4%;
-}
-
 #content{
-    z-index: -1;
     width: 80%;
-    height: 100%;
+    height: 400%;
     position: absolute;
     left: 20%;
     top: 0;
@@ -113,6 +98,7 @@ body {
 #hg {
     height: inherit;
     width: 100%;
+    height: 100%;
     position: absolute;
     z-index: -1;
 }
@@ -121,8 +107,33 @@ body {
 #ueberuns, 
 #portfolio{
     width: 100%;
-    height: 100%;
+    height: 25%;
     position: absolute;
+}
+#kontakt{
+    top: 75%;   
+}
+#ueberuns{
+    top: 25%;   
+}
+#portfolio{
+    top: 50%;
+}
+
+/* ---------------------------- home ------------------------------ */
+
+#home {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 25%;
+    top: 0;
+}
+
+#home img {
+    width: 100%;
+    height: 33.62%;
+    margin-top: -0.4%;
 }
 
 /* --------------------------- kontakt ---------------------------- */
