@@ -1,9 +1,9 @@
 html {
     font-family: arial;
-    height: 100%;
+    overflow: auto;
 }
 
-body {
+body,html {
     height: 100%;
     top: 0;
     bottom: 0;
@@ -13,12 +13,12 @@ body {
 /* --------------------- nav ------------------------- */
 
 #nav {
+    position: absolute;
     width: 20%;
     min-width: 130px;
     float: left;
     z-index: 1;
     height: 100%;
-    position: absolute;
     box-shadow: 8px 0px 10px #333333;
     top: 0;
     left: 0;
@@ -93,6 +93,8 @@ body {
     position: absolute;
     left: 20%;
     top: 0;
+    overflow: hidden;
+    scrol: false;
 }
 
 #hg {
@@ -117,22 +119,23 @@ body {
     top: 25%;   
 }
 #portfolio{
-    top: 50%;
+    top: 50%
 }
 
 /* ---------------------------- home ------------------------------ */
 
 #home {
     position: absolute;
+    overflow: hidden;
     z-index: -1;
-    width: 100%;
+    width: auto;
     height: 25%;
     top: 0;
 }
 
 #home img {
     width: 100%;
-    height: 33.62%;
+    height: 38%;
     margin-top: -0.4%;
 }
 
@@ -200,23 +203,42 @@ body {
 
 
 #portfolio #links {
-    width: 60%;
+    width: 80%;
+    height: 28%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 15%;
 }
 
 #portfolio #links div {
-    width: 31%;
     height: 100%;
     display: inline-block;
-    margin: 0.5%;
+    margin-left: 8%;
 }
 
 #portfolio #links div img {
-    width: 100%;
     height: inherit;
+}
+
+#portfolio #links #p1 {
+    margin-left: 0%;
+}
+
+#portfolio #showroom{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+}
+#portfolio #showroom div img{
+    width: 100%;
+    height: auto;
+}
+
+#portfolio #showroom #shocase1 img{
+    margin-top: -30%;
 }
 /* --------------------------- Ueber Uns -------------------------------*/
 
