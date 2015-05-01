@@ -8,48 +8,96 @@
 
 .ContentBild {
     
+    
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
     #Content {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        border-right: 3px solid black;
+        background-color: beige;
+        
     }
     
     #Bild {
-        
+        display: inline-block;
+        height: 250px;
+        width: 45%;
+        background-color: beige;
     }
 
-}
+
 
 .PreisAnfahrt {
     
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
     #Preis {
-        
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        border-right: 3px solid black;
+        background-color: beige;
     }
     
     #Anfahrt {
-        
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: beige;
     }
     
-}
+
 
 .MobilLaden {
     
-    #Mobil {
-        
-    }
-    
-    #Laden {
-        
-    }
+  width: 100%;
+    margin-bottom: 50px;
     
 }
 
+    #Mobil {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        border-right: 3px solid black;
+        background-color: beige;
+    }
+    
+    #Laden {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: beige;
+    }
+    
+
+
 .FooterFoot {
     
+   width: 100%;
+    margin-bottom: 50px;
+    
+}
     #Footer {
-        
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        border-right: 3px solid black;
+        background-color: beige;
     }
     
     #Foot {
-        
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: beige;
     }
     
-}
+
 
