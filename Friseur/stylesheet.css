@@ -1,34 +1,55 @@
 // Stylesheet Friseur
 
-#Header {
+.Header {
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+}
+
+.ContentBild {
+    
+    #Content {
+    }
+    
+    #Bild {
+        
+    }
+
+}
+
+.PreisAnfahrt {
+    
+    #Preis {
+        
+    }
+    
+    #Anfahrt {
+        
+    }
     
 }
 
-#Content {
+.MobilLaden {
+    
+    #Mobil {
+        
+    }
+    
+    #Laden {
+        
+    }
     
 }
 
-#Bild {
+.FooterFoot {
     
-}
-
-#Preisliste {
+    #Footer {
+        
+    }
     
-}
-
-#Anfahrt {
-    
-}
-
-#Mobil {
-    
-}
-
-#Laden {
-    
-}
-
-#Footer {
+    #Foot {
+        
+    }
     
 }
 
