@@ -1,6 +1,5 @@
 html {
     font-family: arial;
-    overflow: auto;
 }
 
 body,html {
@@ -10,10 +9,12 @@ body,html {
     margin: 0;
     overflow: hidden;
 }
+
+
 /* --------------------- nav ------------------------- */
 
 #nav {
-    position: absolute;
+    position: fixed;
     width: 20%;
     min-width: 130px;
     float: left;
@@ -87,46 +88,62 @@ body,html {
 }
 /* ---------------------- content ----------------------- */
 
+
 #content{
     width: 80%;
-    height: 400%;
     position: absolute;
+    height: 400%;
     left: 20%;
     top: 0;
     overflow: hidden;
-    scrol: false;
-}
-
-#hg {
-    height: inherit;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
 }
 
 #kontakt,
 #ueberuns, 
 #portfolio{
-    width: 100%;
     height: 25%;
+}
+
+.bg{
     position: absolute;
+    height: 25%;
+    width: 100%;
+    z-index: -1;
 }
-#kontakt{
-    top: 75%;   
-}
-#ueberuns{
-    top: 25%;   
-}
+
 #portfolio{
-    top: 50%
+    height: 25%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#kontakt .bg{
+    background-image: url("/bilder/schuessel2.jpg");  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+#portfolio .bg{
+    background-image: url("/bilder/schilf.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#ueberuns .bg{
+    background-image: url("bilder/sonnenuntergang.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* ---------------------------- home ------------------------------ */
 
 #home {
-    position: absolute;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     z-index: -1;
     width: auto;
     height: 25%;
@@ -143,15 +160,15 @@ body,html {
 
 #kontakt form {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%); /* IE 9 */
-   	-webkit-transform: translate(-50%, -50%); /* Safari */
-    transform: translate(-50%, -50%);
     width: 40%;
     background-color: white;
     padding-top: 1%;
     padding-bottom: 1%;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+   	-webkit-transform: translate(-50%, -50%); /* Safari */
+    transform: translate(-50%, -50%);
 }
 
 #kontakt form input,

@@ -1,9 +1,9 @@
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $(window).scroll(function(){
         $(this).scrollTop(top).scrollLeft(left);
     });
-});
+});*/
 
 var onDisplay = $("#home");
 
